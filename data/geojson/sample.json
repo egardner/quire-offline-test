@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.486, 41.891]
+      },
+      "properties": {
+        "name": "Sample GeoJson Point",
+        "description": "This point is defined in sample.json file in data/geojson"
+      }
+    }
+  ]
+}
