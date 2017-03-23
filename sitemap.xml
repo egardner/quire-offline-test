@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/contents/</loc>
+  </url>
+  
+  <url>
+    <loc>/foreword/</loc>
+  </url>
+  
+  <url>
+    <loc>/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>/catalogue/</loc>
+  </url>
+  
+  <url>
+    <loc>/catalogue/italy/</loc>
+  </url>
+  
+  <url>
+    <loc>/catalogue/1/</loc>
+  </url>
+  
+  <url>
+    <loc>/catalogue/2/</loc>
+  </url>
+  
+  <url>
+    <loc>/catalogue/gaul/</loc>
+  </url>
+  
+  <url>
+    <loc>/bibliography/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>sample-geojson.json</loc>
+  </url>
+  
+  <url>
+    <loc>search.json</loc>
+  </url>
+  
+</urlset>
