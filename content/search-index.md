@@ -1,4 +1,5 @@
 ---
-type: search_index
+type: data
+layout: search-index
 url: search.json
 ---

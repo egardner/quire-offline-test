@@ -1,7 +1,7 @@
 ---
 title: Contents
 weight: 2
-type: frontmatter
+type: page
 ---
 {{% quire-toc %}}
 - [Cover](/)

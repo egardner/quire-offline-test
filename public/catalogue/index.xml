@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Catalogue on Quire Catalogue Demo</title>
+    <title>Catalogue on Quire Starter Kit</title>
     <link>/catalogue/index.xml</link>
-    <description>Recent content in Catalogue on Quire Catalogue Demo</description>
+    <description>Recent content in Catalogue on Quire Starter Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/catalogue/index.xml" rel="self" type="application/rss+xml" />
@@ -119,7 +119,6 @@ Laberii at Oudna.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:8&#34;&gt;&l
      aria-live=&#34;polite&#34;
      role=&#34;application&#34;
      aria-label=&#34;Zoomable image&#34;
-     aria-describedby=&#34;&#34;
      data-object-id=&#34;6576&#34; &gt;
 &lt;/div&gt;
 
@@ -293,7 +292,6 @@ Paul Getty Museum 2010, 220.&lt;/p&gt;
      aria-live=&#34;polite&#34;
      role=&#34;application&#34;
      aria-label=&#34;Zoomable image&#34;
-     aria-describedby=&#34;&#34;
      data-object-id=&#34;6916&#34; &gt;
 &lt;/div&gt;
 

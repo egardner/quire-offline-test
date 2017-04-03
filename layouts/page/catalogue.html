@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="quire-page">
+  <h1 class="quire-page__title">{{ .Title }}</h1>
+</div>
+{{ partial "deepzoom.html" . }}
+<div class="quire-page">
+  <div class="quire-page__content">
+    {{ partial "tombstone.html" . }}
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

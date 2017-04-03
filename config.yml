@@ -15,7 +15,7 @@
 baseurl: ""
 relativeURLs: true
 
-title: "Quire Catalogue Demo"
+title: "Quire Starter Kit"
 languageCode: "en-us"
 theme: "quire-web-theme"
 footnoteReturnLinkContents: "↩"
