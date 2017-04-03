@@ -17,7 +17,7 @@ relativeURLs: true
 
 title: "Quire Catalogue Demo"
 languageCode: "en-us"
-theme: "quire-catalogue-theme"
+theme: "quire-web-theme"
 footnoteReturnLinkContents: "↩"
 metaDataFormat: "yaml"
 
