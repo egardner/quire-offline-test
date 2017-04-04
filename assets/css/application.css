@@ -4220,9 +4220,9 @@ body {
   color: #333;
   font-family: "Merriweather", serif;
   font-size: 1em;
-  line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6; }
 
 h1,
 h2,
@@ -4292,6 +4292,75 @@ hr {
 #main-content::before {
   display: initial; }
 
+@page {
+  size: 8.5in 11in;
+  bleed: 0.125in;
+  prince-trim: 0.25in;
+  marks: crop; }
+
+@page footer:left {
+  margin-bottom: 1in;
+  margin-left: 0.75in;
+  margin-right: 1in;
+  margin-top: 0.875in;
+  @bottom-left {
+    content: counter(page);
+    font-family: "Merriweather", serif;
+    font-size: 7.5pt; } }
+
+@page footer:right {
+  margin-bottom: 1in;
+  margin-left: 1in;
+  margin-right: 0.75in;
+  margin-top: 0.875in;
+  @bottom-right {
+    content: counter(page);
+    font-family: "Merriweather", serif;
+    font-size: 7.5pt; } }
+
+@page bleed {
+  margin: 0;
+  @bottom-left {
+    content: none; }
+  @bottom-right {
+    content: none; } }
+
+@page frontmatter:left {
+  margin-bottom: 1in;
+  margin-left: 0.75in;
+  margin-right: 1in;
+  margin-top: 0.875in;
+  @bottom-left {
+    content: counter(page, lower-roman); } }
+
+@page frontmatter:right {
+  margin-bottom: 1in;
+  margin-left: 1in;
+  margin-right: 0.75in;
+  margin-top: 0.875in;
+  @bottom-right {
+    content: counter(page, lower-roman); } }
+
+@page no-footer:left {
+  margin-bottom: 1in;
+  margin-left: 0.75in;
+  margin-right: 1in;
+  margin-top: 0.875in;
+  @bottom-left {
+    content: none; }
+  @bottom-right {
+    content: none; } }
+
+@page no-footer:right {
+  margin-bottom: 1in;
+  margin-left: 1in;
+  margin-right: 0.75in;
+  margin-top: 0.875in;
+  @bottom-left {
+    content: none; }
+  @bottom-right {
+    content: none; } }
+
 .quire-navbar {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
@@ -4307,6 +4376,9 @@ hr {
   top: 0;
   width: 100%;
   z-index: 1300; }
+  @media print {
+    .quire-navbar {
+      display: none; } }
   .quire-navbar__left {
     flex: 1;
     padding-left: 1.6em; }
@@ -4402,6 +4474,9 @@ hr {
   @media screen and (min-width: 600px) {
     .quire-menu {
       width: 20rem; } }
+  @media print {
+    .quire-menu {
+      display: none; } }
   .quire-menu.is-visible {
     transform: translateX(0%); }
   .quire-menu__mobile-close {
@@ -4473,6 +4548,14 @@ hr {
   flex-wrap: nowrap;
   height: 100vh;
   justify-content: flex-end; }
+  @media print {
+    .quire-cover {
+      height: 11.25in;
+      left: -0.125in;
+      page: bleed;
+      position: absolute;
+      top: -0.125in;
+      width: 8.75in; } }
   .quire-cover__inner {
     background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.9) 100%);
     display: flex;
@@ -4512,6 +4595,9 @@ hr {
       height: 800px; } }
   .quire-deepzoom.inset {
     height: 500px; }
+  @media print {
+    .quire-deepzoom {
+      column-span: all; } }
 
 .quire-tombstone {
   font-size: 0.8em;
@@ -4524,6 +4610,9 @@ hr {
   .quire-figure figcaption {
     margin-top: 0.8em;
     padding: 0 1.6em; }
+  @media print {
+    .quire-figure {
+      column-span: all; } }
 
 .quire-toc {
   list-style-type: none; }
@@ -4534,17 +4623,23 @@ hr {
     padding-top: 1.2em;
     text-transform: uppercase; }
     .quire-toc li li {
-      border-bottom: none;
+      border-bottom: 0;
       font-size: 0.8em;
       letter-spacing: 0;
       padding-bottom: 0;
       text-transform: initial; }
+  @media print {
+    .quire-toc {
+      column-span: all; } }
 
 .quire-map {
   background-color: #333;
   margin-bottom: 1.6em; }
   .quire-map.inset {
     height: 500px; }
+  @media print {
+    .quire-map {
+      column-span: all; } }
 
 .quire-search-results {
   position: fixed;
@@ -4574,6 +4669,9 @@ hr {
   .quire-search-results.is-visible {
     opacity: 1;
     visibility: visible; }
+  @media print {
+    .quire-search-results {
+      display: none; } }
 
 .quire-page {
   max-width: 1200px;
@@ -4583,6 +4681,9 @@ hr {
     clear: both;
     content: "";
     display: block; }
+  @media print {
+    .quire-page {
+      page: footer; } }
   @media screen and (max-width: 600px) {
     .quire-page {
       padding-left: 0.8em;
@@ -4608,6 +4709,9 @@ hr {
     position: relative; }
     .quire-page__content .footnotes {
       font-size: 0.64em; }
+      @media print {
+        .quire-page__content .footnotes {
+          padding-top: 0.125in; } }
     @media screen and (min-width: 600px) {
       .quire-page__content {
         float: left;
@@ -4627,3 +4731,8 @@ hr {
         font-size: 1.25em; }
         .quire-page__content:last-child {
           margin-right: 0; } }
+    @media print {
+      .quire-page__content {
+        column-count: 2;
+        column-gap: 0.25in;
+        font-size: 10pt; } }
