@@ -46,6 +46,10 @@
   </url>
   
   <url>
+    <loc>/print-version/</loc>
+  </url>
+  
+  <url>
     <loc>sample-geojson.json</loc>
   </url>
   
