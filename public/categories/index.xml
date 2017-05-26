@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Quire Starter Kit</title>
-    <link>https://quire-offline-test/categories/</link>
+    <link>https://egardner.github.io/quire-offline-test/categories/</link>
     <description>Recent content in Categories on Quire Starter Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://quire-offline-test/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://egardner.github.io/quire-offline-test/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
