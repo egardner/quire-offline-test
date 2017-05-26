@@ -12,8 +12,8 @@
 # canonifyURLs: true
 
 # Use these settings for serving/building to the root path
-baseurl: ""
-relativeURLs: true
+baseurl: "/quire-offline-test"
+relativeURLs: false
 
 title: "Quire Starter Kit"
 languageCode: "en-us"
