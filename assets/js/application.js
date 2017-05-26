@@ -113,9 +113,7 @@
 	    onStart: {
 	      duration: 400,
 	      render: function render($container) {
-	        if ((0, _jquery2.default)('#js-menu').hasClass('is-visible')) {
-	          window.pageUI.menuToggle();
-	        }
+	        // if ($('#js-menu').hasClass('is-visible')) { window.pageUI.menuToggle() }
 	        $container.velocity('fadeOut', { duration: 200 });
 	      }
 	    },
