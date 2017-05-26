@@ -70,7 +70,7 @@
 	//
 	if ('serviceWorker' in navigator) {
 	  console.log('Registering service worker.');
-	  navigator.serviceWorker.register('service-worker.js', { scope: './' }).then(function () {
+	  navigator.serviceWorker.register('service-worker.js', { scope: '/quire-offline-test/' }).then(function () {
 	    console.log('Service Worker registration complete.');
 	  }, function () {
 	    console.log('Service worker registration failure.');
