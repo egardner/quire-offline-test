@@ -1,6 +1,10 @@
 const VERSION = 'v1::';
 const STATIC_CACHE_NAME = 'quire-app-static';
 
+// Hack to make this work on GH pages
+const URL_PREFIX = '/quire-offline-test';
+// const URL_PREFIX = '';
+
 console.log(`installing service-worker.js`);
 
 const CACHE_STATIC = [
@@ -46,7 +50,8 @@ self.addEventListener('install', function(event) {
     caches
       .open(VERSION + STATIC_CACHE_NAME)
       .then(function(cache) {
-        return cache.addAll(CACHE_STATIC);
+        var prefixedURLs = CACHE_STATIC.map(function(i) { return URL_PREFIX + i })
+        return cache.addAll(prefixedURLs);
       })
   );
 });
