@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -62,6 +62,23 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	// Register service worker
+	// -----------------------------------------------------------------------------
+
+
+	// JS Libraries (add them to package.json with `npm install [library]`)
+	//
+	if ('serviceWorker' in navigator) {
+	  console.log('Registering service worker.');
+	  navigator.serviceWorker.register('/service-worker.js').then(function () {
+	    console.log('Service Worker registration complete.');
+	  }, function () {
+	    console.log('Service worker registration failure.');
+	  });
+	} else {
+	  console.log('Service worker is not supported.');
+	}
+
 	// Document Ready event
 	// -----------------------------------------------------------------------------
 	//
@@ -69,12 +86,6 @@
 	// ready, add it to the body of this function.
 	//
 
-
-	// JS Libraries (add them to package.json with `npm install [library]`)
-	//
-	(0, _jquery2.default)(document).ready(function () {
-	  var pageUI = new _ui2.default();
-	});
 
 	// JS Modules (create these in the /source/js/ folder of this theme)
 	//
@@ -93,28 +104,31 @@
 
 	// Stylesheets
 	//
+	(0, _jquery2.default)(document).ready(function () {
+	  var pageUI = new _ui2.default();
+	});
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	 * jQuery JavaScript Library v3.2.1
@@ -10371,9 +10385,9 @@
 	} );
 
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {'use strict';
 
@@ -10628,9 +10642,9 @@
 	exports.default = QuireUI;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
 	 Leaflet 1.0.3, a JS library for interactive maps. http://leafletjs.com
@@ -23884,9 +23898,9 @@
 	}(window, document));
 	//# sourceMappingURL=leaflet-src.map
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global, module) {/**
 	 * @license
@@ -27727,9 +27741,9 @@
 
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(8)(module)))
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = function(module) {
 		if(!module.webpackPolyfill) {
@@ -27743,9 +27757,9 @@
 	}
 
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * lodash (Custom Build) <https://lodash.com/>
@@ -28127,9 +28141,9 @@
 
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {'use strict';
 
@@ -28231,9 +28245,9 @@
 	exports.default = Map;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {'use strict';
 
@@ -28304,9 +28318,9 @@
 	exports.default = Search;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 	 * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 0.7.2
@@ -30383,9 +30397,9 @@
 	})();
 
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {'use strict';
 
@@ -30457,12 +30471,12 @@
 	exports.default = DeepZoom;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
-/***/ },
+/***/ }),
 /* 14 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {/*
-	 * Leaflet-IIIF 1.1.1
+	 * Leaflet-IIIF 1.2.1
 	 * IIIF Viewer for Leaflet
 	 * by Jack Reed, @mejackreed
 	 */
@@ -30473,7 +30487,8 @@
 	    tileSize: 256,
 	    updateWhenIdle: true,
 	    tileFormat: 'jpg',
-	    fitBounds: true
+	    fitBounds: true,
+	    setMaxBounds: false
 	  },
 
 	  initialize: function(url, options) {
@@ -30538,6 +30553,10 @@
 	        _this._fitBounds();
 	      }
 
+	      if(_this.options.setMaxBounds) {
+	        _this._setMaxBounds();
+	      }
+
 	      // Reset tile sizes to handle non 256x256 IIIF tiles
 	      _this.on('tileload', function(tile, url) {
 
@@ -30553,6 +30572,18 @@
 	      });
 	    });
 	  },
+	  onRemove: function(map) {
+	    var _this = this;
+	    
+	    // Remove maxBounds set for this image
+	    if(_this.options.setMaxBounds) {
+	      map.setMaxBounds(null);
+	    }
+
+	    // Call remove TileLayer
+	    L.TileLayer.prototype.onRemove.call(_this, map);
+
+	  },
 	  _fitBounds: function() {
 	    var _this = this;
 
@@ -30564,6 +30595,18 @@
 	    var bounds = L.latLngBounds(sw, ne);
 
 	    _this._map.fitBounds(bounds, true);
+	  },
+	  _setMaxBounds: function() {
+	    var _this = this;
+
+	    // Find best zoom level, center map, and constrain viewer
+	    var initialZoom = _this._getInitialZoom(_this._map.getSize());
+	    var imageSize = _this._imageSizes[initialZoom];
+	    var sw = _this._map.options.crs.pointToLatLng(L.point(0, imageSize.y), initialZoom);
+	    var ne = _this._map.options.crs.pointToLatLng(L.point(imageSize.x, 0), initialZoom);
+	    var bounds = L.latLngBounds(sw, ne);
+
+	    _this._map.setMaxBounds(bounds, true);
 	  },
 	  _getInfo: function() {
 	    var _this = this;
@@ -30705,9 +30748,9 @@
 
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
-/***/ },
+/***/ }),
 /* 15 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	L.Control.Fullscreen = L.Control.extend({
 	    options: {
@@ -30863,5 +30906,5 @@
 	};
 
 
-/***/ }
+/***/ })
 /******/ ]);
