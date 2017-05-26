@@ -2,68 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>quire-offline-test/</loc>
+    <loc>/quire-offline-test/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/contents/</loc>
+    <loc>/quire-offline-test/contents/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/foreword/</loc>
+    <loc>/quire-offline-test/foreword/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/introduction/</loc>
+    <loc>/quire-offline-test/introduction/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/catalogue/</loc>
+    <loc>/quire-offline-test/catalogue/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/catalogue/italy/</loc>
+    <loc>/quire-offline-test/catalogue/italy/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/catalogue/1/</loc>
+    <loc>/quire-offline-test/catalogue/1/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/catalogue/2/</loc>
+    <loc>/quire-offline-test/catalogue/2/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/catalogue/gaul/</loc>
+    <loc>/quire-offline-test/catalogue/gaul/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/bibliography/</loc>
+    <loc>/quire-offline-test/bibliography/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/about/</loc>
+    <loc>/quire-offline-test/about/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/print-version/</loc>
+    <loc>/quire-offline-test/print-version/</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/sample-geojson.json</loc>
+    <loc>/quire-offline-test/sample-geojson.json</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/search.json</loc>
+    <loc>/quire-offline-test/search.json</loc>
   </url>
   
   <url>
-    <loc>quire-offline-test/categories/</loc>
+    <loc>/quire-offline-test/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>quire-offline-test/tags/</loc>
+    <loc>/quire-offline-test/tags/</loc>
     <priority>0</priority>
   </url>
   
