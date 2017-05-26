@@ -28270,8 +28270,7 @@
 	    _classCallCheck(this, Search);
 
 	    this.index = this.buildIndex();
-	    // this.dataURL = '/search.json'
-	    this.dataURL = '/quire-offline-test/search.json';
+	    this.dataURL = '/search.json';
 	    this.getData();
 	    this.contentList = [];
 	  }
