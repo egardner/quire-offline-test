@@ -50,11 +50,21 @@
   </url>
   
   <url>
-    <loc>sample-geojson.json</loc>
+    <loc>/sample-geojson.json</loc>
   </url>
   
   <url>
-    <loc>search.json</loc>
+    <loc>/search.json</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

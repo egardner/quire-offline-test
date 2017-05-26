@@ -4562,6 +4562,10 @@ hr {
     flex-direction: column;
     height: 30vh;
     justify-content: center; }
+    @media print {
+      .quire-cover__inner {
+        background: none;
+        margin-top: 7in; } }
   .quire-cover__title {
     font-size: 1.95312em;
     margin-bottom: 0;
@@ -4572,6 +4576,10 @@ hr {
     @media screen and (min-width: 900px) {
       .quire-cover__title {
         font-size: 4.76837em; } }
+    @media print {
+      .quire-cover__title {
+        font-size: 36pt;
+        filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.5)); } }
   .quire-cover__subtitle {
     font-size: 1.25em;
     margin-top: 0.25rem;
@@ -4612,7 +4620,8 @@ hr {
     padding: 0 1.6em; }
   @media print {
     .quire-figure {
-      column-span: all; } }
+      column-span: all;
+      page-break-inside: avoid; } }
 
 .quire-toc {
   list-style-type: none; }
@@ -4630,7 +4639,9 @@ hr {
       text-transform: initial; }
   @media print {
     .quire-toc {
-      column-span: all; } }
+      column-span: all; }
+      .quire-toc a::after {
+        content: leader(dotted) " " target-counter(attr(href, url), page); } }
 
 .quire-map {
   background-color: #333;
@@ -4683,7 +4694,8 @@ hr {
     display: block; }
   @media print {
     .quire-page {
-      page: footer; } }
+      page: footer;
+      page-break-before: always; } }
   @media screen and (max-width: 600px) {
     .quire-page {
       padding-left: 0.8em;
