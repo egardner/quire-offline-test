@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/contents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/foreword/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/catalogue/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/catalogue/italy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/catalogue/1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/catalogue/2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/catalogue/gaul/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/bibliography/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/print-version/</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/sample-geojson.json</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/search.json</loc>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://egardner.github.io/quire-offline-test/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
