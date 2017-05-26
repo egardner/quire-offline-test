@@ -142,7 +142,7 @@
 	// ready, add it to the body of this function.
 	//
 	(0, _jquery2.default)(document).ready(function () {
-	  pageUI = new _ui2.default();
+	  window.pageUI = new _ui2.default();
 	  prepareTransitions();
 	});
 
