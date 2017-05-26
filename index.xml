@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cover on Quire Starter Kit</title>
-    <link>/quire-offline-test/</link>
+    <link>quire-offline-test/</link>
     <description>Recent content in Cover on Quire Starter Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/quire-offline-test/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="quire-offline-test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contents</title>
-      <link>/quire-offline-test/contents/</link>
+      <link>quire-offline-test/contents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/contents/</guid>
+      <guid>quire-offline-test/contents/</guid>
       <description> Cover Foreword Introduction Catalogue  Italy (1-2) Gaul (3-4)  Bibliography About   </description>
     </item>
     
     <item>
       <title>Foreword</title>
-      <link>/quire-offline-test/foreword/</link>
+      <link>quire-offline-test/foreword/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/foreword/</guid>
+      <guid>quire-offline-test/foreword/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>/quire-offline-test/introduction/</link>
+      <link>quire-offline-test/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/introduction/</guid>
+      <guid>quire-offline-test/introduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Italy</title>
-      <link>/quire-offline-test/catalogue/italy/</link>
+      <link>quire-offline-test/catalogue/italy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/catalogue/italy/</guid>
+      <guid>quire-offline-test/catalogue/italy/</guid>
       <description>The mosaics of Italy first appeared in the late second century BC under the influence of the Hellenistic Greek pictorial tradition, in which tiny pieces of irregular stone were used to create narrative themes in detailed, colorful compositions that imitated the effects of painting.1 The earliest examples of this type, most of which were emblemata, or picture panels, were either introduced to the region by Greek craftsmen or manufactured elsewhere and imported.</description>
     </item>
     
     <item>
       <title>Mosaic Floor with Head of Medusa</title>
-      <link>/quire-offline-test/catalogue/1/</link>
+      <link>quire-offline-test/catalogue/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/catalogue/1/</guid>
+      <guid>quire-offline-test/catalogue/1/</guid>
       <description>Provenance This mosaic originally decorated the floor of a Roman villa in one of two adjacent rooms, both with similar mosaics, discovered on the Via Emanuele Filiberto in Rome. The site was excavated by Angelo Pasqui in 1910, but it is uncertain when the mosaic was removed.1 It was purchased by the J. Paul Getty Museum in 1971.2
 Commentary A colorful female bust is the only polychrome feature in this otherwise black-and-white mosaic.</description>
     </item>
     
     <item>
       <title>Mosaic Floor with Bear Hunt</title>
-      <link>/quire-offline-test/catalogue/2/</link>
+      <link>quire-offline-test/catalogue/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/catalogue/2/</guid>
+      <guid>quire-offline-test/catalogue/2/</guid>
       <description>Provenance This mosaic was acquired by the J. Paul Getty Museum in 1972 from Jeannette Brun, a Zurich-based antiquities dealer, who reported that it had been in an Italian collection but provided no further information regarding its provenance. Subsequent publications attributed the work on stylistic grounds to a North African atelier.1 Recent archival research, however, indicates that the mosaic was in fact unearthed in June 1901, in a vineyard in the vicinity of Lago di Lucrino, north of Baiae and just west of Naples.</description>
     </item>
     
     <item>
       <title>Gaul</title>
-      <link>/quire-offline-test/catalogue/gaul/</link>
+      <link>quire-offline-test/catalogue/gaul/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/catalogue/gaul/</guid>
+      <guid>quire-offline-test/catalogue/gaul/</guid>
       <description>The province of Gallia Narbonensis, in the southern part of Gaul (present-day France), was one of the earliest regions of the Roman Empire to be affected by Greek and Roman culture. Even before the Roman conquest of the late second century BC, there was a significant Greek presence in the region, notably at Massalia (present-day Marseille), a Greek colony founded about 600 BC. The earliest examples of mosaics and other decorated floors in Gaul, dating to the first century BC, are found in this region, beginning with simple types related to the Italian opus signinum and terrazzo.</description>
     </item>
     
     <item>
       <title>Bibliography</title>
-      <link>/quire-offline-test/bibliography/</link>
+      <link>quire-offline-test/bibliography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/bibliography/</guid>
+      <guid>quire-offline-test/bibliography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About this Book</title>
-      <link>/quire-offline-test/about/</link>
+      <link>quire-offline-test/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/about/</guid>
+      <guid>quire-offline-test/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/quire-offline-test/print-version/</link>
+      <link>quire-offline-test/print-version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/print-version/</guid>
+      <guid>quire-offline-test/print-version/</guid>
       <description>This file is a placeholder that allows you to generate a special page suitable for creating a print version of your entire website. Content in this file will not display.
 To see this page, navigate to /print-version/ while the preview server is running.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/quire-offline-test/sample-geojson.json</link>
+      <link>quire-offline-test/sample-geojson.json</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/sample-geojson.json</guid>
+      <guid>quire-offline-test/sample-geojson.json</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/quire-offline-test/search.json</link>
+      <link>quire-offline-test/search.json</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/quire-offline-test/search.json</guid>
+      <guid>quire-offline-test/search.json</guid>
       <description></description>
     </item>
     
