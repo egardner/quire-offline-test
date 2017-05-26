@@ -12,8 +12,9 @@
 # canonifyURLs: true
 
 # Use these settings for serving/building to the root path
-baseurl: "/quire-offline-test"
-relativeURLs: false
+baseURL: "https://egardner.github.io/quire-offline-test"
+hostURL: "https://egardner.github.io"
+relativeURLs: true
 
 title: "Quire Starter Kit"
 languageCode: "en-us"
@@ -33,14 +34,14 @@ params:
 menu:
   main:
     - Name: "Contents"
-      URL: "/contents/"
+      URL: "https://egardner.github.io/quire-offline-test/contents/"
       weight: 1
     - Name: "Catalogue"
-      URL: "/catalogue/"
+      URL: "https://egardner.github.io/quire-offline-test/catalogue/"
       weight: 2
     - Name: "Bibliography"
-      URL: "/bibliography/"
+      URL: "https://egardner.github.io/quire-offline-test/bibliography/"
       weight: 3
     - Name: "About"
-      URL: "/about/"
+      URL: "https://egardner.github.io/quire-offline-test/about/"
       weight: 4
