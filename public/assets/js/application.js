@@ -62,29 +62,16 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// Register service worker
-	// -----------------------------------------------------------------------------
+	// Hack to make this work on GH pages
 
 
 	// JS Libraries (add them to package.json with `npm install [library]`)
 	//
-	if ('serviceWorker' in navigator) {
-	  console.log('Registering service worker.');
-	  navigator.serviceWorker.register('/service-worker.js').then(function () {
-	    console.log('Service Worker registration complete.');
-	  }, function () {
-	    console.log('Service worker registration failure.');
-	  });
-	} else {
-	  console.log('Service worker is not supported.');
-	}
+	var URL_PREFIX = '/quire-offline-test';
+	// const URL_PREFIX = '';
 
-	// Document Ready event
+	// Register service worker
 	// -----------------------------------------------------------------------------
-	//
-	// If you want code to be run as soon on every page load as soon as things are
-	// ready, add it to the body of this function.
-	//
 
 
 	// JS Modules (create these in the /source/js/ folder of this theme)
@@ -103,6 +90,23 @@
 	// file must remain here so that Sass files are compiled when the theme builds.
 
 	// Stylesheets
+	//
+	if ('serviceWorker' in navigator) {
+	  console.log('Registering service worker.');
+	  navigator.serviceWorker.register(URL_PREFIX + '/service-worker.js').then(function () {
+	    console.log('Service Worker registration complete.');
+	  }, function () {
+	    console.log('Service worker registration failure.');
+	  });
+	} else {
+	  console.log('Service worker is not supported.');
+	}
+
+	// Document Ready event
+	// -----------------------------------------------------------------------------
+	//
+	// If you want code to be run as soon on every page load as soon as things are
+	// ready, add it to the body of this function.
 	//
 	(0, _jquery2.default)(document).ready(function () {
 	  var pageUI = new _ui2.default();
