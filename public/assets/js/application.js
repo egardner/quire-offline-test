@@ -28291,7 +28291,7 @@
 	    value: function getData() {
 	      var _this = this;
 
-	      $.get(this.dataURL, { cache: true }).done(function (data) {
+	      $.get(this.dataURL).done(function (data) {
 	        _this.contentList = data;
 	        data.forEach(function (item) {
 	          _this.index.add(item);
